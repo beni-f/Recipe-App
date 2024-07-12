@@ -43,3 +43,47 @@ Welcome to Recipe-App, a modern and intuitive web application for food enthusias
    ```sh
    git clone https://github.com/yourusername/Recipe-App.git
    cd Recipe-App
+
+2. **Create a virtual environment**:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate
+
+3. **Install dependencies**:
+   ```sh
+   pip install -r requirements.txt
+
+4. **Apply migrations**:
+   ```sh
+   python manage.py migrate
+
+5. **Create a superuser**:
+   ```sh
+   python manage.py createsuperuser
+
+6. **Run the development server**:
+    ```sh
+    python manage.py runserver
+
+### Visit the app:
+Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to start using Recipe-App!
+
+## Contribution 🤝
+We welcome contributions to make Recipe-App even better! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+### How to Contribute
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements 🙏
+- Thanks to the [Django](https://www.djangoproject.com/) community for their incredible framework.
+- Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
+
+## Contact 📬
+Have questions or feedback? Reach out to us at [benifissha@gmail.com](mailto:your-email@example.com).
