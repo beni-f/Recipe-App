@@ -69,7 +69,7 @@ Welcome to Recipe-App, a modern and intuitive web application for food enthusias
 Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to start using Recipe-App!
 
 ## Contribution 🤝
-We welcome contributions to make Recipe-App even better! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+I'll be so glad to welcome contributions to make Recipe-App even better! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
 ### How to Contribute
 1. Fork the repository.
@@ -86,4 +86,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/).
 
 ## Contact 📬
-Have questions or feedback? Reach out to us at [benifissha@gmail.com](mailto:your-email@example.com).
+Have questions or feedback? Reach out to us at [benifissha@gmail.com](mailto:benifissha@gmail.com).
