@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from .models import Recipe
+from .forms import RecipeForm
 
 
 class ListRecipes(ListView):
@@ -15,7 +16,7 @@ class CreateRecipe(CreateView):
         Creates a recpie
     """
     model = Recipe
-    fields = ('__all__')
+    form_class = RecipeForm
     template_name = 'create_recpie.html'
 
 class DetailRecipe(DetailView):

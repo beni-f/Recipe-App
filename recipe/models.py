@@ -22,7 +22,7 @@ class Recipe(models.Model):
         on_delete=models.CASCADE
     )
     serving_size = models.IntegerField()
-    cooking_time = models.IntegerField()
+    cooking_time = models.DurationField()
     ingredients = models.TextField()
     directions = models.TextField(null=True, blank=True)
     course = models.ForeignKey(
