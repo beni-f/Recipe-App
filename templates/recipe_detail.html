@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} Recipie - {{ recipe.name }} {% endblock title %}
+
+
+{% block content %}
+<h1>{{recipe.name}}</h1>
+<button>
+    <a href="{% url 'recipe_update' recipe.id %}">Update</a>
+    <a href="{% url 'recipe_delete' recipe.id %}">Delete</a>
+</button>
+{% endblock content %}
