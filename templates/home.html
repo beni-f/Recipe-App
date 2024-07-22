@@ -32,4 +32,11 @@
     </div>
 </div>
 {% endif %}
+
+<h2>Recipes</h2>
+{% for recipe in recipe_list %}
+    <h1>{{ recipe.name }}</h1>
+    <p>{{ recipe.course }}</p>
+    <p>{{ recipe.ingredients }}</p>
+{% endfor %}
 {% endblock content %}

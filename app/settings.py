@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'recipe.apps.RecipeConfig',
     'home.apps.HomeConfig',
+    'extra_views',
 ]
 
 MIDDLEWARE = [
